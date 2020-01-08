@@ -1,0 +1,22 @@
+.head p{
+    font-size: 20px;
+    text-align: center;
+    margin:10px;
+    font-weight: bold;
+}
+.cards{
+    margin:30px;
+    width:200px;
+    height:80px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    background-color: lightcyan;
+}
+.cards p{
+    color:grey;
+    margin-top: 5px;
+}
+.cards a{
+     color:black;
+}

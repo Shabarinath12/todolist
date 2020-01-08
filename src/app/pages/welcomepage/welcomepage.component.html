@@ -1,2 +1,30 @@
-<app-banner></app-banner>
+<!-- <app-banner></! -->
  
+    <div *ngIf="show; else anotherDiv">
+        Text to show
+    </div>
+    
+    <ng-template #anotherDiv>
+        
+        A lternate text while primary text is hidden
+    
+    </ng-template>
+
+    <button (click)="show = !show"> {{show ? 'hide' : 'show'}} </button>
+
+
+
+    <div *ngFor='let profile of profiles; let i = index '>
+
+        <h1> Name: {{ profile.name }} </h1>
+        <h2> email: {{ profile.email }} </h2>
+
+    </div>
+
+
+
+
+    <div >
+
+
+    </div> 

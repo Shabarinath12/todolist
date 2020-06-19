@@ -1,30 +1,50 @@
 <!-- <app-banner></! -->
- 
-    <div *ngIf="show; else anotherDiv">
-        Text to show
+
+<!-- <button (click)="show = !show">{{ show ? "hide" : "show" }}</button> -->
+<div class="start">
+<div fxLayout="row-wrap" fxLayoutAlign="space-evenly ">
+   <!-- <div fxFlex="33" fxHide.lt-md> -->
+  <div *ngFor="let profile of profiles; let i = index">
+    <div class="img2">
+      <img src="../../../assets/Angular_full_color_logo.svg.png" />
     </div>
-    
-    <ng-template #anotherDiv>
-        
-        A lternate text while primary text is hidden
-    
-    </ng-template>
-
-    <button (click)="show = !show"> {{show ? 'hide' : 'show'}} </button>
-
-
-
-    <div *ngFor='let profile of profiles; let i = index '>
-
-        <h1> Name: {{ profile.name }} </h1>
-        <h2> email: {{ profile.email }} </h2>
-
+   <input type="text" placeholder="search"> 
+   <button>search</button>
+     <div fxLayout="row-wrap">
+    <img src="{{ profile.img }}" /> 
+    <h4>profiles:{{profile.profiles}}</h4>
     </div>
-
-
-
-
-    <div >
-
-
-    </div> 
+    <p>mobile: {{profile.mobile}} </p>
+    <hr>
+   </div>
+  <!-- </div> -->
+</div>
+</div>
+<br>
+<div class="start">
+    <div fxLayout="row-wrap" fxLayoutAlign="space-evenly ">
+        <div *ngFor="let profile of profiles; let i = index">
+         <div fxLayout="row-wrap">
+        <img src="{{ profile.img }}" /> 
+        <h4>profiles:{{profile.profiles}}</h4>
+        </div>
+        <p>mobile: {{profile.mobile}} </p>
+        <hr>
+       </div>
+      <!-- </div> -->
+    </div>
+  </div>
+<br>
+<div class="start">
+    <div fxLayout="row-wrap" fxLayoutAlign="space-evenly ">
+        <div *ngFor="let profile of profiles; let i = index">
+         <div fxLayout="row-wrap">
+        <img src="{{ profile.img }}" /> 
+        <h4>profiles:{{profile.profiles}}</h4>
+        </div>
+        <p>mobile: {{profile.mobile}} </p>
+        <hr>
+       </div>
+      <!-- </div> -->
+    </div>
+  </div>

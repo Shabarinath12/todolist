@@ -14,11 +14,10 @@ img{
     height:70px;
     vertical-align: middle;
 }
-span{
-    font-size:25px;
-    color:white;
-    
-}
+ h1{
+     margin:10px;
+ }
+
 a{
     margin:10px;
     color:white;

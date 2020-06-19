@@ -18,43 +18,30 @@ export class WelcomepageComponent implements OnInit {
   profiles: any[] = [
     {
       id: "1",
-      img: "img-1",
-      name: "pavan",
-      mobile: 9999999990,
-      email: "pava@gmail.com",
-      pass: "123secrete"
+      img: "../../assets/images-2.jpeg",
+      profiles:"The  proclaimed no taxation without representation starting with the Stamp",
+       mobile: 9999999990,
+       pass: "123secrete",
+ 
+
     },
     {
       id: "2",
-      img: "img-1",
-      name: "bharghav",
-      mobile: 9999999990,
-      email: "pava@gmail.com",
-      pass: "123secrete"
+      img: "../../assets/images-2.jpeg",
+      profiles:"The  proclaimed no taxation without representation starting with the Stamp",
+       mobile: 9999999990,
+       pass: "123secrete",
+ 
     },
     {
       id: "3",
-      img: "img-1",
-      name: "geem",
-      mobile: 9999999990,
-      email: "pava@gmail.com",
-      pass: "123secrete"
-    },
-    {
-      id: "4",
-      img: "img-1",
-      name: "safari",
-      mobile: 9999999990,
-      email: "pava@gmail.com",
-      pass: "123secrete"
-    },
-    {
-      id: "5",
-      img: "img-1",
-      name: "apple",
-      mobile: 9999999990,
-      email: "pava@gmail.com",
-      pass: "123secrete"
+      img: "../../assets/images-2.jpeg",
+      profiles:"The  proclaimed no taxation without representation starting with the Stamp",
+       mobile: 9999999990,
+       pass: "123secrete",
+ 
     }
+     
+     
   ];
 }
